@@ -1,1 +1,6 @@
-Insert discussion 3 info
+Discussion 3 - 
+
+An array is fixed in size and holds elements in it. These elements hold integers or doubles inside them. These elements can be made up of numbers. The numbers in the array can be swapped, moved around, copied and deleted. To create an array it involves two things. You have to declare the array variable and then you have to initialize that array and create the length inserting a number in the [] square bracket. You can also create multiple numbers in the list using {} curly brackets instead of the [] and the compiler will add add the length automatically. Elements in an array should be all the same type of data. Arrays are more suitable for situations where a fixed-size collection of elements is needed. 
+
+Array lists have a lot more flexibility in their structure compared to regular arrays. They can change dynamically by adding and decreasing length by needs, where regular arrays have a length that has to be stated in the beginning and cant change afterwards. This ability to handle automatic resizing makes array lists more convenient for dynamic collections Array lists can also elements as objects and hold any data type including primitive types. Array lists allow more manipulation between the elements with add(), remove(),get(), and set(). Array lists are more suitable for dynamic collections that may need to grow or shrink over time and where flexibility in size is needed.
+
