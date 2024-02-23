@@ -1,0 +1,58 @@
+import java.util.ArrayList;
+
+public class DifferenceArraysArrayLists {
+    public static void main(String[] args) {
+        // Arrays
+        // Arrays have a fixed size, which must be specified when declared
+        // Once created, the size of an array cannot be changed
+        int[] array = new int[5]; // Declare and initialize an array of integers with a size of 5
+
+        // Access elements by index
+        array[0] = 10;
+        array[1] = 20;
+        array[2] = 30;
+        array[3] = 40;
+        array[4] = 50;
+
+        // Print the array elements
+        System.out.println("Array:");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Element at index " + i + ": " + array[i]);
+        }
+
+        // ArrayLists
+        // ArrayLists are part of the Java Collections Framework and are dynamic in size
+        // They can grow or shrink as needed
+        ArrayList<Integer> arrayList = new ArrayList<>(); // Declare and initialize an ArrayList of integers
+
+        // Add elements
+        arrayList.add(100);
+        arrayList.add(200);
+        arrayList.add(300);
+        arrayList.add(400);
+        arrayList.add(500);
+
+        // Print ArrayList elements
+        System.out.println("\nArrayList:");
+        for (int i = 0; i < arrayList.size(); i++) {
+            System.out.println("Element at index " + i + ": " + arrayList.get(i));
+        }
+
+        // Modify elements
+        array[0] = 1000; // Modify element in array
+        arrayList.set(0, 1000); // Modify element in ArrayList
+
+        // Print modified elements
+        System.out.println("\nModified Array and ArrayList:");
+        System.out.println("Array:");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Element at index " + i + ": " + array[i]);
+        }
+        System.out.println("ArrayList:");
+        for (int i = 0; i < arrayList.size(); i++) {
+            System.out.println("Element at index " + i + ": " + arrayList.get(i));
+        }
+
+        
+}
+}
